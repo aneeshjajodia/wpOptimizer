@@ -13,8 +13,8 @@ module.exports = function(grunt) {
           files: [{
             expand: true, // required option
             src: ['**/*.png'],
-            cwd: 'wp-content/uploads/', // required option
-            dest: 'wp-content/uploads/'
+            cwd: 'uploads/', // required option
+            dest: 'uploads/'
           }]
         }
       },
@@ -22,10 +22,10 @@ module.exports = function(grunt) {
       smushit: {
         mygroup: {
           src: [
-                'wp-content/uploads/**/*.jpg',
-                'wp-content/uploads/**/*.png'
+                'uploads/**/*.jpg',
+                'uploads/**/*.png'
                ],
-          dest: 'wp-content/uploads/'
+          dest: 'uploads/'
         }
       }
 

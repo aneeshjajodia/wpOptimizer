@@ -1,12 +1,12 @@
 {
-  "name": "wpOptimizer",
+  "name": "ImageOptimizer",
   "version": "1.0.0",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-pngmin": "^0.6.4",
     "grunt-smushit": "^1.3.0"
   },
-  "description": "A wordpress optimizer powered by grunt.",
+  "description": "An Image Optimizer.",
   "main": "gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
